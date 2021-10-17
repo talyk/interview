@@ -1,0 +1,23 @@
+<mat-card aria-label="hero-card">
+    <mat-card-header tabindex="0">
+        <mat-card-title aria-label="hero-name">{{hero.name}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <mat-list>
+            <mat-list-item tabindex="0">Start date:&nbsp;{{hero.start_date}}</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item tabindex="0">Suit colors:&nbsp;{{hero.suit_colors}}</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item tabindex="0">Ability:&nbsp;{{hero.ability}}</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item tabindex="0">Starting power:&nbsp;{{hero.starting_power}}</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item tabindex="0">Current power:&nbsp;{{hero.current_power}}</mat-list-item>
+        </mat-list>
+        <div *ngIf="coach === hero.coach">
+            <button mat-raised-button color="primary" (click)="onStartTraining()">Start training
+            </button>
+            <mat-spinner [diameter]="25" color="primary" *ngIf="isTrainingStarted"></mat-spinner>
+        </div>
+    </mat-card-content>
+</mat-card>

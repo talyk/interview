@@ -1,0 +1,64 @@
+{
+	"heroes": [
+		{
+			"name": "Sid",
+			"id": "f06ea28d-2a24-4c90-8faf-2008cc746791",
+			"start_date": "6/9/2020",
+			"suit_colors": "green,red",
+			"ability": "attacker",
+			"starting_power": 5,
+			"current_power": 9,
+			"coach": "Bob"
+		},
+		{
+			"name": "Ron",
+			"id": "e2ba604c-64e0-4c3f-98f3-ba997abd4b0e",
+			"start_date": "5/24/2020",
+			"suit_colors": "green,blue",
+			"ability": "defender",
+			"starting_power": 63,
+			"current_power": 96,
+			"coach": "Bob"
+		},
+		{
+			"name": "Emily",
+			"id": "f5a86999-a5ee-4fa3-9987-d3e2a2ce6238",
+			"start_date": "1/4/2021",
+			"suit_colors": "brown,blue",
+			"ability": "attacker",
+			"starting_power": 51,
+			"current_power": 54,
+			"coach": "Bob"
+		},
+		{
+			"name": "Richard",
+			"id": "e6572d96-fed4-4153-b89c-1e8e6be15e55",
+			"start_date": "6/4/2020",
+			"suit_colors": "yellow,white",
+			"ability": "attacker",
+			"starting_power": 50,
+			"current_power": 48,
+			"coach": "Alice"
+		},
+		{
+			"name": "Sam",
+			"id": "bce95d5e-26bd-4481-b111-2d1cfe63eef6",
+			"start_date": "7/21/2020",
+			"suit_colors": "brown,black",
+			"ability": "defender",
+			"starting_power": 20,
+			"current_power": 85,
+			"coach": "Alice"
+		},
+		{
+			"name": "Peter",
+			"id": "6074591d-378f-481e-8154-3b33f67eb2ed",
+			"start_date": "1/5/2021",
+			"suit_colors": "brown,orange",
+			"ability": "attacker",
+			"starting_power": 79,
+			"current_power": 48,
+			"coach": "Alice"
+		}
+	]
+}
