@@ -1,0 +1,5 @@
+<div class="hero-list_container">
+  <div class="card" *ngFor="let hero of heroes$ | async as heroes;let index=i">
+    <app-hero-card [hero]="hero" [coach]="authService.userName"></app-hero-card>
+  </div>
+</div>

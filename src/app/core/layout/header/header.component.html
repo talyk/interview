@@ -1,0 +1,5 @@
+<header>
+  <mat-toolbar>
+    <span *ngIf="authService.userName" tabindex="0" aria-label="header">Hi &nbsp;{{authService.userName | titlecase}}</span>
+  </mat-toolbar>
+</header>

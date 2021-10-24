@@ -1,0 +1,16 @@
+@use 'src/assets/styles/colors';
+.login_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 300px;
+        width: 100%;
+        padding: 10px 20px;
+        box-shadow: colors.$boxShadow;
+    }
+}
